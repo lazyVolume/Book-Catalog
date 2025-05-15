@@ -25,3 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const closeBtn = document.getElementById("closeBtn");
+  const popup = document.getElementById("popup");
+
+  closeBtn.addEventListener("click", function () {
+    popup.style.display = "none";
+  });
+});
+
